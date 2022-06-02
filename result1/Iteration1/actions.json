@@ -1,0 +1,85 @@
+[
+    {
+        "actionName": "CreateOrder",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: index.php_3",
+                "infFile": "t4.inf",
+                "time": 1654170654196
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: index.php_4",
+                "infFile": "t6.inf",
+                "time": 1654170654698
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Hummingbird printed sweater",
+                "infFile": "t7.inf",
+                "time": 1654170655205
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: index.php_5",
+                "infFile": "t8.inf",
+                "time": 1654170655555
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: index.php_6",
+                "infFile": "t9.inf",
+                "time": 1654170655862
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: index.php_7",
+                "infFile": "t10.inf",
+                "time": 1654170656273
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: Proceed to checkout",
+                "infFile": "t11.inf",
+                "time": 1654170656674
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: index.php_8",
+                "infFile": "t12.inf",
+                "time": 1654170657383
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Expleo_Ecomm_100_Search",
+                "rawStartTime": 1654170653699,
+                "rawEndTime": 1654170654715,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014163732528686524
+            },
+            {
+                "transactionName": "Expleo_Ecomm_101_AddToCart",
+                "rawStartTime": 1654170654827,
+                "rawEndTime": 1654170655874,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013510704040527344
+            },
+            {
+                "transactionName": "Expleo_Ecomm_102_ProceedtoCheckout",
+                "rawStartTime": 1654170655904,
+                "rawEndTime": 1654170656688,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007908344268798828
+            },
+            {
+                "transactionName": "Expleo_Ecomm_103_Address",
+                "rawStartTime": 1654170656720,
+                "rawEndTime": 1654170657390,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006099700927734375
+            }
+        ]
+    }
+]

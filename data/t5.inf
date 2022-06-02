@@ -1,0 +1,13 @@
+[t5]
+FileName1=t5.html
+URL1=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=authentication&back=my-account
+Total=2
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIQCVhVc7pAH5kREgUNu1dWahIXCQKkWjC3SyRdEgUNg6hbPRIFDc5BTHoSEAnxYrEcwcwZFBIFDYOoWz0Yq6nKAQ==.txt
+URL2=https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIQCVhVc7pAH5kREgUNu1dWahIXCQKkWjC3SyRdEgUNg6hbPRIFDc5BTHoSEAnxYrEcwcwZFBIFDYOoWz0Yq6nKAQ==?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t15]
+FileName1=t15.html
+URL1=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=order
+Total=2
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_15.xml
+FileName2=t15_2.jpg
+URL2=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/s/2.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

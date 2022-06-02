@@ -1,0 +1,17 @@
+[t9]
+FileName1=t9.html
+URL1=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=search&s=HUMMINGBIRD+PRINTED+SWEATER
+Total=4
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_9.xml
+FileName2=t9_14-home_default.jpg
+URL2=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/1/4/14-home_default.jpg
+FileName3=t9_17-home_default.jpg
+URL3=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/1/7/17-home_default.jpg
+FileName4=t9_20-home_default.jpg
+URL4=http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/2/0/20-home_default.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,942 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-http-method-override",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-encode-response-if-executable",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 19,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Jun-02-2022",
+    "RecordingDuration": 252687,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1654165625,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 2153907,
+    "TotalBytesSent": 112117,
+    "TotalRequests": 77,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.200.35",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 533,
+              "HttpStatus": 200,
+              "Size": 973,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=11:uE-p12mmDdW2c1ZD11EwmlrQsQGA6UVjnm9W6f9GsHw&cup2hreq=502c51a07d2fb27649517f64b43a2d5f1ca0ec83031136c6736a833ab1008ecf"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.16.234",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 15,
+              "EventId": 622,
+              "HttpStatus": 200,
+              "Size": 769,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTAyLjAuNTAwNS42MxopCAUQARobCg0IBRAGGAEiAzAwMTABEKfxDRoCGAPoo5nJIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARCM4QoaAhgD7-G94yIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQ2KULGgIYA0fCihUiBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgDWbx0fSIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQtygaAhgD_SolACIEIAEgAigEGigIDxABGhoKDQgPEAYYASIDMDAxMAEQ43EaAhgDzKf05CIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAN3Vzc4IgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAgGgIYA0QGrjMiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENgPGgIYAxdn1BwiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJu9ARoCGANFqBcpIgQgASACKAEaKQgDEAEaGwoNCAMQBhgBIgMwMDEwARDXsgoaAhgD9MgMXCIEIAEgAigBGikIDhABGhsKDQgOEAYYASIDMDAxMAEQ_bgGGgIYA-3XvAsiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEJASGgIYA6O43-UiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.169.74",
+          "IncludeInScript": true,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 477,
+              "HttpStatus": 200,
+              "Size": 72,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIQCVhVc7pAH5kREgUNu1dWahIXCQKkWjC3SyRdEgUNg6hbPRIFDc5BTHoSEAnxYrEcwcwZFBIFDYOoWz0Yq6nKAQ==?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 140,
+              "EventId": 446,
+              "HttpStatus": 200,
+              "Size": 52,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIQCVhVc7pAH5kREgUNu1dWahIQCfFisRzBzBkUEgUNg6hbPRirqcoB?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.212.195",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 32,
+              "EventId": 217,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=102"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "amazonaws.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.214.54.203",
+          "IncludeInScript": true,
+          "Name": "prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 655,
+              "HttpStatus": 200,
+              "Size": 121368,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/7a3ebca0cba2e2c6090e84e1d77e0f94.woff2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 652,
+              "HttpStatus": 200,
+              "Size": 8136,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=order-confirmation&id_cart=19972&id_module=30&id_order=2064&key=32730d1fd1420f71fba779ad6211430c"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 609,
+              "EventId": 650,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?fc=module&module=ps_wirepayment&controller=validation&id_lang=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 265,
+              "EventId": 645,
+              "HttpStatus": 200,
+              "Size": 9140,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=order"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 282,
+              "EventId": 643,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=order"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 32,
+              "EventId": 639,
+              "HttpStatus": 200,
+              "Size": 1392,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/s/2.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 282,
+              "EventId": 636,
+              "HttpStatus": 200,
+              "Size": 7915,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=order"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 266,
+              "EventId": 634,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=order"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 32,
+              "EventId": 627,
+              "HttpStatus": 200,
+              "Size": 2058,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/2/1/21-small_default.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 282,
+              "EventId": 624,
+              "HttpStatus": 200,
+              "Size": 7327,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=order"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 616,
+              "HttpStatus": 200,
+              "Size": 1533,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/2/1/21-cart_default.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 282,
+              "EventId": 613,
+              "HttpStatus": 200,
+              "Size": 8269,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=cart&action=show"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 313,
+              "EventId": 610,
+              "HttpStatus": 200,
+              "Size": 3378,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?fc=module&module=ps_shoppingcart&controller=ajax&id_lang=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1000,
+              "EventId": 608,
+              "HttpStatus": 200,
+              "Size": 1807,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=cart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 32,
+              "EventId": 606,
+              "HttpStatus": 200,
+              "Size": 1145,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/99db8adec61e4fcf5586e1afa549b432.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 32,
+              "EventId": 604,
+              "HttpStatus": 200,
+              "Size": 891,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/b1db819132e64a3e01911a1413c33acf.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 602,
+              "HttpStatus": 200,
+              "Size": 1192,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/3a2aeeba930cc29e4d31ebfa1b7cdaa2.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 600,
+              "HttpStatus": 200,
+              "Size": 901,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/c1a65805f759901a39d10eb854c1dcf2.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 598,
+              "HttpStatus": 200,
+              "Size": 3780,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/ffddcb3736980b23405b31142a324b62.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 15,
+              "EventId": 595,
+              "HttpStatus": 200,
+              "Size": 5233,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/e049aeb07a2ae1627933e8e58d3886d2.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 592,
+              "HttpStatus": 200,
+              "Size": 4740,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/m/1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 590,
+              "HttpStatus": 200,
+              "Size": 848,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/8b05d51ede908907d65695558974d86f.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 588,
+              "HttpStatus": 200,
+              "Size": 1198,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/082a71677e756fb75817e8f262a07cb4.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 582,
+              "HttpStatus": 200,
+              "Size": 432,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/blockreassurance/img/ic_swap_horiz_black_36dp_1x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 580,
+              "HttpStatus": 200,
+              "Size": 545,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/blockreassurance/img/ic_local_shipping_black_36dp_1x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 576,
+              "HttpStatus": 200,
+              "Size": 671,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/blockreassurance/img/ic_verified_user_black_36dp_1x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 573,
+              "HttpStatus": 200,
+              "Size": 17759,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/2/1/21-large_default.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 204,
+              "EventId": 569,
+              "HttpStatus": 200,
+              "Size": 10162,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?id_product=2&rewrite=brown-bear-printed-sweater&controller=product&id_lang=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 32,
+              "EventId": 567,
+              "HttpStatus": 200,
+              "Size": 10007,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/2/0/20-home_default.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 32,
+              "EventId": 564,
+              "HttpStatus": 200,
+              "Size": 9637,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/1/7/17-home_default.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 557,
+              "HttpStatus": 200,
+              "Size": 7059,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/1/4/14-home_default.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 328,
+              "EventId": 553,
+              "HttpStatus": 200,
+              "Size": 7684,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=search&s=HUMMINGBIRD+PRINTED+SWEATER"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 359,
+              "EventId": 544,
+              "HttpStatus": 200,
+              "Size": 49986,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=search"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 141,
+              "EventId": 537,
+              "HttpStatus": 200,
+              "Size": 6060,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=my-account"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 531,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=authentication&back=my-account"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 109,
+              "EventId": 471,
+              "HttpStatus": 200,
+              "Size": 6119,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=authentication&back=my-account"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 469,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=my-account"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/vnd.microsoft.icon",
+              "DownloadTime": 140,
+              "EventId": 442,
+              "HttpStatus": 200,
+              "Size": 34494,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/favicon.ico?1324977642"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 384,
+              "HttpStatus": 200,
+              "Size": 74,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/js/jquery/ui/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 382,
+              "HttpStatus": 200,
+              "Size": 286053,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/ps_banner/img/sale70.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 379,
+              "HttpStatus": 200,
+              "Size": 5994,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/8/8-home_default.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 377,
+              "HttpStatus": 200,
+              "Size": 6394,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/7/7-home_default.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 361,
+              "HttpStatus": 200,
+              "Size": 6609,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/6/6-home_default.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 356,
+              "HttpStatus": 200,
+              "Size": 8293,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/4/4-home_default.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 353,
+              "HttpStatus": 200,
+              "Size": 8031,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/5/5-home_default.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 349,
+              "HttpStatus": 200,
+              "Size": 160208,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/199038f07312bfc6f0aabd3ed6a2b64d.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 344,
+              "HttpStatus": 200,
+              "Size": 44300,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/570eb83859dc23dd0eec423a49e147fe.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 340,
+              "HttpStatus": 200,
+              "Size": 161480,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/19c1b868764c0e4d15a45d3f61250488.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 46,
+              "EventId": 291,
+              "HttpStatus": 200,
+              "Size": 8986,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/3/3-home_default.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 285,
+              "HttpStatus": 200,
+              "Size": 7405,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/2/1/21-home_default.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 32,
+              "EventId": 281,
+              "HttpStatus": 200,
+              "Size": 6914,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/p/2/2-home_default.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 279,
+              "HttpStatus": 200,
+              "Size": 413603,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/ps_imageslider/images/sample-3.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 275,
+              "HttpStatus": 200,
+              "Size": 213995,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/ps_imageslider/images/sample-2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 273,
+              "HttpStatus": 200,
+              "Size": 260937,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/ps_imageslider/images/sample-1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 271,
+              "HttpStatus": 200,
+              "Size": 1831,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/img/logo.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 269,
+              "HttpStatus": 200,
+              "Size": 98,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/js/custom.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 267,
+              "HttpStatus": 200,
+              "Size": 751,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/ps_shoppingcart/ps_shoppingcart.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 265,
+              "HttpStatus": 200,
+              "Size": 508,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/ps_searchbar/ps_searchbar.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 252,
+              "HttpStatus": 200,
+              "Size": 60733,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/js/jquery/ui/jquery-ui.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 249,
+              "HttpStatus": 200,
+              "Size": 47936,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/js/theme.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 247,
+              "HttpStatus": 200,
+              "Size": 894,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/ps_imageslider/js/homeslider.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 245,
+              "HttpStatus": 200,
+              "Size": 36468,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/core.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 242,
+              "HttpStatus": 200,
+              "Size": 1472,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/ps_imageslider/js/responsiveslides.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 239,
+              "HttpStatus": 200,
+              "Size": 98,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/custom.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 237,
+              "HttpStatus": 200,
+              "Size": 478,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/modules/ps_imageslider/css/homeslider.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 235,
+              "HttpStatus": 200,
+              "Size": 2287,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/js/jquery/ui/themes/base/minified/jquery.ui.theme.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 227,
+              "HttpStatus": 200,
+              "Size": 4871,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/js/jquery/ui/themes/base/minified/jquery-ui.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 219,
+              "HttpStatus": 200,
+              "Size": 32798,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/themes/classic/assets/css/theme.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 214,
+              "HttpStatus": 200,
+              "Size": 7698,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 207,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "192.168.1.73",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.1.73",
+          "IncludeInScript": true,
+          "Name": "192.168.1.73",
+          "Port": 60000,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/xml",
+              "DownloadTime": 15,
+              "EventId": 439,
+              "HttpStatus": 200,
+              "Size": 896,
+              "URL": "http://192.168.1.73:60000/upnp/dev/00e91b8d-743c-3912-a302-2d1eb6bf14a6/desc"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "192.168.1.121",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.1.121",
+          "IncludeInScript": true,
+          "Name": "192.168.1.121",
+          "Port": 8008,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/xml",
+              "DownloadTime": 0,
+              "EventId": 405,
+              "HttpStatus": 200,
+              "Size": 82,
+              "URL": "http://192.168.1.121:8008/ssdp/device-desc.xml"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 7
+}

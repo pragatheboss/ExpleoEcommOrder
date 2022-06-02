@@ -1,0 +1,41 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: HomePage",
+                "infFile": "t1.inf",
+                "time": 1654170652991
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: index.php",
+                "infFile": "t2.inf",
+                "time": 1654170653208
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: index.php_2",
+                "infFile": "t3.inf",
+                "time": 1654170653674
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Expleo_Ecomm_001_Launch",
+                "rawStartTime": 1654170652007,
+                "rawEndTime": 1654170652991,
+                "thinkTime": 0.0,
+                "wastedTime": 0.18748068809509278
+            },
+            {
+                "transactionName": "Expleo_Ecomm_002_Login",
+                "rawStartTime": 1654170652992,
+                "rawEndTime": 1654170653687,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012791156768798828
+            }
+        ]
+    }
+]

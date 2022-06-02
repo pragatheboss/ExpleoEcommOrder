@@ -1,0 +1,15 @@
+POST /index.php?controller=authentication&back=my-account HTTP/1.1
+Host: prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com
+Connection: keep-alive
+Content-Length: 82
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://prestashop-dublin-production-658025956.eu-west-1.elb.amazonaws.com/index.php?controller=authentication&back=my-account
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: AWSELB=4123DB5D1AB5FC87AA4E730AA6548CCC105B01482BEC89994308B21B14E505E9232287C9D1962FECA0DBB35768DD39E1345C9D3C905677FA4AB24601123372ECA65A28A5E0; PHPSESSID=h2iqv9ml1jnbss55u7sgd3gai6; PrestaShop-a70b13a9d8837424f5b5551173e29129=def50200da5474d698d0b24b7f726ec24ebb02834249902fed337794581fc8255011eaedaad6b40a7c7a6142800ef1cea37a3b8508c6ca5dfbe6511f96454e9e7a2dbcbf1fa61134142a4c00ee447170a945f08ddb88437a3ccf1bb9987e264ddb6a35891065b30ccfbd91351978b99c7299bb37825f2bbfd11ec2eaa2e4ae4b4c8ea6d831b945d48ed0b1db20b1ea13dbe0dbeabe2a76de0ce0ea9b1201bc68b77160a2631016c2e2359618d323ebf306829c1077ef5b4466f85e450cfd48e3d9e2efb2d1
+

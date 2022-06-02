@@ -1,0 +1,535 @@
+[API Trapper      (3df4:44e8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (51c4:5acc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (5120:5018)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (5120:447c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5120:447c)] Load Network Traffic Analyzers:
+[Network Analyzer (5120:447c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (5120:447c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (5120:447c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (5120:447c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (5120:447c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (5120:447c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (5120:447c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (5120:447c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5120:18c4)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 142.250.200.35:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (5120:1df0)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Web Request      (5120:18c4)] "GET /"   
+[Network Analyzer (5120:18c4)]   (Sid:  2) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 172.217.16.237:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (5120:1f34)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 510 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /index.php"   
+[Network Analyzer (5120:18c4)]   (Sid:  2) Client -> Server @ : 649 bytes (Service=HTTP)
+[Network Analyzer (5120:1f34)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5120:1df0)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 1452 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=102"   
+[Network Analyzer (5120:18c4)]   (Sid:  1) Client -> Server @ : 460 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 7759 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/theme.css"   
+[Network Analyzer (5120:18c4)]   (Sid:  2) Client -> Server @ : 1100 bytes (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid:  1) Server -> Client : 322 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 2492 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (5120:18c4)] "GET /js/jquery/ui/themes/base/minified/jquery-ui.min.css"   
+[Network Analyzer (5120:18c4)]   (Sid:  4) Client -> Server @ : 1116 bytes (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 11326 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  4) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  4) Server -> Client : 2273 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (5120:18c4)] "GET /js/jquery/ui/themes/base/minified/jquery.ui.theme.min.css"   
+[Network Analyzer (5120:18c4)]   (Sid:  5) Client -> Server @ : 1122 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/ps_imageslider/css/homeslider.css"   
+[Network Analyzer (5120:18c4)]   (Sid:  6) Client -> Server @ : 1106 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/custom.css"   
+[Network Analyzer (5120:18c4)]   (Sid:  7) Client -> Server @ : 1101 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 2593 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 782 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 400 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/core.js"   
+[Network Analyzer (5120:18c4)]   (Sid:  7) Client -> Server @ : 1064 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/js/theme.js"   
+[Network Analyzer (5120:18c4)]   (Sid:  6) Client -> Server @ : 1083 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /js/jquery/ui/jquery-ui.min.js"   
+[Network Analyzer (5120:18c4)]   (Sid:  5) Client -> Server @ : 1079 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/ps_imageslider/js/responsiveslides.min.js"   
+[Network Analyzer (5120:18c4)]   (Sid:  2) Client -> Server @ : 1099 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/ps_imageslider/js/homeslider.js"   
+[Network Analyzer (5120:18c4)]   (Sid:  4) Client -> Server @ : 1089 bytes (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 339 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 14520 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  4) Server -> Client : 1212 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 14520 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 14520 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 5886 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 12656 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 11204 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/ps_searchbar/ps_searchbar.js"   
+[Network Analyzer (5120:18c4)]   (Sid:  8) Client -> Server @ : 1086 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 4698 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 11616 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 4427 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/ps_shoppingcart/ps_shoppingcart.js"   
+[Network Analyzer (5120:18c4)]   (Sid:  2) Client -> Server @ : 1092 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/js/custom.js"   
+[Network Analyzer (5120:18c4)]   (Sid:  4) Client -> Server @ : 1084 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/logo.png"   
+[Network Analyzer (5120:18c4)]   (Sid:  6) Client -> Server @ : 1123 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 826 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/ps_imageslider/images/sample-1.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  5) Client -> Server @ : 1153 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/ps_imageslider/images/sample-2.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  7) Client -> Server @ : 1153 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 1069 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/ps_imageslider/images/sample-3.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  8) Client -> Server @ : 1153 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  4) Server -> Client : 414 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 2085 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/2/2-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  2) Client -> Server @ : 1137 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/2/1/21-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  4) Client -> Server @ : 1140 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/3/3-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  6) Client -> Server @ : 1137 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 14520 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 7170 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  4) Server -> Client : 7661 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 9242 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 1262 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 15436 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/19c1b868764c0e4d15a45d3f61250488.woff2"   
+[Network Analyzer (5120:18c4)]   (Sid:  2) Client -> Server @ : 1223 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/570eb83859dc23dd0eec423a49e147fe.woff2"   
+[Network Analyzer (5120:18c4)]   (Sid:  4) Client -> Server @ : 1223 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/199038f07312bfc6f0aabd3ed6a2b64d.woff2"   
+[Network Analyzer (5120:18c4)]   (Sid:  6) Client -> Server @ : 1223 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 6126 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/4/4-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  7) Client -> Server @ : 1137 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/5/5-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  5) Client -> Server @ : 1137 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/6/6-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  8) Client -> Server @ : 1137 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 9340 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  4) Server -> Client : 1040 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 8287 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 8549 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  4) Server -> Client : 10723 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Server -> Client : 6865 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 216.58.212.234:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 2013 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 12985 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/7/7-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  7) Client -> Server @ : 1137 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/8/8-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid:  2) Client -> Server @ : 1137 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/ps_banner/img/sale70.png"   
+[Network Analyzer (5120:18c4)]   (Sid:  6) Client -> Server @ : 1143 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /js/jquery/ui/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer (5120:18c4)]   (Sid:  5) Client -> Server @ : 1231 bytes (Service=HTTP)
+[Network Analyzer (5120:2348)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  2) Server -> Client : 6250 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Server -> Client : 3746 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Server -> Client : 325 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 7783 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.121:8008   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (5120:18c4)] "GET /ssdp/device-desc.xml"   
+[Network Analyzer (5120:18c4)]   (Sid: 10) Client -> Server @ : 249 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 10) Server -> Client : 1201 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.73:60000   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (5120:2348)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (5120:18c4)] "GET /img/favicon.ico?1324977642"   
+[Network Analyzer (5120:18c4)]   (Sid:  6) Client -> Server @ : 1137 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIQCVhVc7pAH5kREgUNu1dWahIQCfFisRzBzBkUEgUNg6hbPRirqcoB?alt=proto"   
+[Network Analyzer (5120:18c4)]   (Sid:  9) Client -> Server @ : 555 bytes (SSL)(Service=HTTP)
+[Web Request      (5120:18c4)] "GET /upnp/dev/00e91b8d-743c-3912-a302-2d1eb6bf14a6/desc"   
+[Network Analyzer (5120:18c4)]   (Sid: 11) Client -> Server @ : 279 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 11) Server -> Client : 1113 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 4356 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 14025 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  9) Server -> Client : 615 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 172.217.169.74:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 216.58.212.206:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (5120: a70)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5120: a70)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[API Trapper      ( d1c:5198)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (5120:5228)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 64.233.184.188:5228   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (5120:5228)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:1764)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.73:8009   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.121:8009   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (5120:1764)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (5120:18c4)] "GET /index.php?controller=my-account"   
+[Network Analyzer (5120:18c4)]   (Sid:  6) Client -> Server @ : 1243 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 14) Client -> Server @ : 154 bytes (SSL)
+[Network Analyzer (5120:18c4)]   (Sid: 14) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (5120:18c4)]   (Sid: 14) Server -> Client : 66 bytes (SSL)
+[Network Analyzer (5120:18c4)]   (Sid: 14) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 311 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /index.php?controller=authentication&back=my-account"   
+[Network Analyzer (5120:18c4)]   (Sid:  6) Client -> Server @ : 1263 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Server -> Client : 4998 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.253:8009   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (5120:18c4)] "GET /v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIQCVhVc7pAH5kREgUNu1dWahIXCQKkWjC3SyRdEgUNg6hbPRIFDc5BTHoSEAnxYrEcwcwZFBIFDYOoWz0Yq6nKAQ==?alt=proto"   
+[Network Analyzer (5120:18c4)]   (Sid:  9) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  9) Server -> Client : 635 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid:  8) Connection Terminated (by Server)
+[Net An. Error    (5120:25b4)] SSL_connect(ssl_id = 1443557505296 = 000001501ABB7910) Failed, ctx = 000001501A80AE80, err = "SSLv3/TLS write client hello", err code = 5, err msg = "error:00000005:lib(0):func(0):DH lib
+"
+[Net An. Error    (5120:25b4)]   (Sid: 15) SSL handshake with remote server Failed!
+[Network Analyzer (5120:326c)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_CHACHA20_POLY1305_SHA256)
+[Net An. Error    (5120:326c)] SSLAccept(ssl_id = 1443495064784 = 000001501702B4D0) Failed, ctx = 000001501A80E990, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (5120:326c)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (5120:2b28)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5120:18c4)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.73:8009   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (5120:2b28)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.121:8009   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.253:8009   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.253:8009   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.121:8009   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.73:8009   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.253:8009   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.121:8009   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 192.168.1.73:8009   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (5120:18c4)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (5120:18c4)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 142.250.180.3:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (5120:18c4)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (5120:18c4)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (5120:18c4)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (5120:18c4)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (5120:18c4)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (5120:4ebc)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (5120:18c4)]   (Sid: 28) Client -> Server @ : 1484 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "POST /index.php?controller=authentication&back=my-account"   
+[Network Analyzer (5120:18c4)]   (Sid: 28) Client -> Server @ : 82 bytes (Service=HTTP)
+[Network Analyzer (5120:4ebc)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 2469 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "POST /service/update2/json?cup2key=11:uE-p12mmDdW2c1ZD11EwmlrQsQGA6UVjnm9W6f9GsHw&cup2hreq=502c51a07d2fb27649517f64b43a2d5f1ca0ec83031136c6736a833ab1008ecf"
+[Network Analyzer (5120:18c4)]   (Sid: 27) Client -> Server @ : 1369 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 27) Client -> Server @ : 9118 bytes (SSL)(Service=HTTP)
+[Web Request      (5120:18c4)] "GET /index.php?controller=my-account"   
+[Network Analyzer (5120:18c4)]   (Sid: 28) Client -> Server @ : 1743 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 27) Server -> Client : 1269 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 27) Server -> Client : 992 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 27) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 4939 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Client -> Server @ : 1776 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "POST /index.php?controller=search"   
+[Network Analyzer (5120:18c4)]   (Sid: 28) Client -> Server @ : 47 bytes (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 142.250.200.42:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 4356 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 10164 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 7260 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 14520 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 4356 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Server -> Client : 3802 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /index.php?controller=search&s=HUMMINGBIRD+PRINTED+SWEATER"   
+[Network Analyzer (5120:18c4)]   (Sid: 29) Client -> Server @ : 1723 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 29) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 29) Server -> Client : 6563 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/1/4/14-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid: 29) Client -> Server @ : 1620 bytes (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid: 29) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 29) Server -> Client : 4411 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Web Request      (5120:18c4)] "GET /img/p/1/7/17-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid: 31) Client -> Server @ : 1620 bytes (Service=HTTP)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid= 32)  PROXIED!
+[Web Request      (5120:18c4)] "GET /img/p/2/0/20-home_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid: 32) Client -> Server @ : 1620 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 31) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 31) Server -> Client : 6989 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 32) Server -> Client : 10264 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /index.php?id_product=2&rewrite=brown-bear-printed-sweater&controller=product&id_lang=1"   
+[Network Analyzer (5120:18c4)]   (Sid: 32) Client -> Server @ : 1778 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 32) Server -> Client : 7260 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 32) Server -> Client : 3234 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/2/1/21-large_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid: 32) Client -> Server @ : 1650 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/blockreassurance/img/ic_verified_user_black_36dp_1x.png"   
+[Network Analyzer (5120:18c4)]   (Sid: 31) Client -> Server @ : 1683 bytes (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid: 32) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 32) Server -> Client : 15112 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 31) Server -> Client : 924 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid= 33)  PROXIED!
+[Web Request      (5120:18c4)] "GET /modules/blockreassurance/img/ic_local_shipping_black_36dp_1x.png"   
+[Network Analyzer (5120:18c4)]   (Sid: 29) Client -> Server @ : 1684 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /modules/blockreassurance/img/ic_swap_horiz_black_36dp_1x.png"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1680 bytes (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid: 29) Server -> Client : 798 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 685 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid= 34)  PROXIED!
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/082a71677e756fb75817e8f262a07cb4.svg"   
+[Network Analyzer (5120:18c4)]   (Sid: 31) Client -> Server @ : 1631 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/8b05d51ede908907d65695558974d86f.svg"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1631 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/m/1.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid: 34) Client -> Server @ : 1631 bytes (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:18c4)]   (Sid: 31) Server -> Client : 1456 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1105 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 34) Server -> Client : 4996 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 52.214.54.203:80   (Service=)  (Sid= 35)  PROXIED!
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/e049aeb07a2ae1627933e8e58d3886d2.svg"   
+[Network Analyzer (5120:18c4)]   (Sid: 29) Client -> Server @ : 1631 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/ffddcb3736980b23405b31142a324b62.svg"   
+[Network Analyzer (5120:18c4)]   (Sid: 32) Client -> Server @ : 1631 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/3a2aeeba930cc29e4d31ebfa1b7cdaa2.svg"   
+[Network Analyzer (5120:18c4)]   (Sid: 35) Client -> Server @ : 1631 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/c1a65805f759901a39d10eb854c1dcf2.svg"   
+[Network Analyzer (5120:18c4)]   (Sid: 34) Client -> Server @ : 1631 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/99db8adec61e4fcf5586e1afa549b432.svg"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1631 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/b1db819132e64a3e01911a1413c33acf.svg"   
+[Network Analyzer (5120:18c4)]   (Sid: 31) Client -> Server @ : 1631 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 29) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 29) Server -> Client : 4040 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 32) Server -> Client : 4038 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 34) Server -> Client : 1158 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 35) Server -> Client : 1450 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 31) Server -> Client : 1148 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1403 bytes  (Service=HTTP)
+[API Trapper      (5850:59c0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1830 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "POST /index.php?controller=cart"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 111 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 2140 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "POST /index.php?fc=module&module=ps_shoppingcart&controller=ajax&id_lang=1"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1883 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 640 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /index.php?controller=cart&action=show"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1758 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 7181 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/2/1/21-cart_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1600 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1788 bytes  (Service=HTTP)
+[Network Analyzer (5120:447c)] Address lookup for Sahana = 192.168.1.154
+[Network Analyzer (5120:447c)] Request Connection: Remote Server @ 142.250.200.42:443   (Service=)  (Sid= 36)  PROXIED!
+[Net An. Error    (5120:54c0)] SSL_connect(ssl_id = 1443557654400 = 000001501ABDBF80) Failed, ctx = 000001501A80AE80, err = "SSLv3/TLS write client hello", err code = 5, err msg = "error:00000005:lib(0):func(0):DH lib
+"
+[Net An. Error    (5120:3b04)] SSL_connect(ssl_id = 1443557642080 = 000001501ABD8F60) Failed, ctx = 000001501A80B270, err = "SSLv3/TLS write client hello", err code = 5, err msg = "error:00000005:lib(0):func(0):DH lib
+"
+[Net An. Error    (5120:54c0)]   (Sid: 26) SSL handshake with remote server Failed!
+[Net An. Error    (5120:3b04)]   (Sid: 30) SSL handshake with remote server Failed!
+[Network Analyzer (5120: 1f0)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5120: 1f0)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (5120:18c4)] "GET /v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTAyLjAuNTAwNS42MxopCAUQARobCg0IBRAGGAEiAzAwMTABEKfxDRoCGAPoo5nJIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARCM4QoaAhgD7-G94yIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQ2KULGgIYA0fCihUiBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgDWbx0fSIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQtygaAhgD_SolACIEIAEgAigEGigIDxABGhoKDQgPEAYYASIDMDAxMAEQ43EaAhgDzKf05CIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAN3Vzc4IgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAgGgIYA0QGrjMiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENgPGgIYAxdn1BwiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJu9ARoCGANFqBcpIgQgASACKAEaKQgDEAEaGwoNCAMQBhgBIgMwMDEwARDXsgoaAhgD9MgMXCIEIAEgAigBGikIDhABGhsKDQgOEAYYASIDMDAxMAEQ_bgGGgIYA-3XvAsiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEJASGgIYA6O43-UiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (5120:18c4)]   (Sid: 36) Client -> Server @ : 1225 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 36) Server -> Client : 1290 bytes (SSL) (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /index.php?controller=order"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1698 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 6206 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/p/2/1/21-small_default.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1590 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 2313 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid: 31) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid: 32) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid: 34) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid: 35) Connection Terminated (by Server)
+[Web Request      (5120:18c4)] "POST /index.php?controller=order"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1909 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 396 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /index.php?controller=order"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1713 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 5342 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /img/s/2.jpg"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1571 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1647 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1866 bytes (Service=HTTP)
+[Web Request      (5120:18c4)] "POST /index.php?controller=order"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 71 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 396 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /index.php?controller=order"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1713 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 8019 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid:  1) Connection Terminated (by Server)
+[Web Request      (5120:18c4)] "POST /index.php?fc=module&module=ps_wirepayment&controller=validation&id_lang=1"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1912 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 377 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /index.php?controller=order-confirmation&id_cart=19972&id_module=30&id_order=2064&key=32730d1fd1420f71fba779ad6211430c"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1804 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 8044 bytes  (Service=HTTP)
+[Web Request      (5120:18c4)] "GET /themes/classic/assets/css/7a3ebca0cba2e2c6090e84e1d77e0f94.woff2"   
+[Network Analyzer (5120:18c4)]   (Sid: 33) Client -> Server @ : 1651 bytes (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1040 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 13068 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 13068 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 13068 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 7260 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 33) Server -> Client : 1301 bytes  (Service=HTTP)
+[Network Analyzer (5120:18c4)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (5120:18c4)]   (Sid: 13) Connection Terminated (by Server)

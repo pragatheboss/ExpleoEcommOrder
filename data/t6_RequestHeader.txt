@@ -1,0 +1,14 @@
+POST /service/update2/json?cup2key=11:uE-p12mmDdW2c1ZD11EwmlrQsQGA6UVjnm9W6f9GsHw&cup2hreq=502c51a07d2fb27649517f64b43a2d5f1ca0ec83031136c6736a833ab1008ecf HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 9118
+X-Goog-Update-AppId: ihnlcenocehgdaegdmhbidjhnhdchfmm,oimompecagnajdejgnnjijobebaeigek,hnimpnehoodheedghdeeijklkeaacbdc,gcmjkmgdlgnkkcocmoeiminaijmmjnii,obedbbhbpmojnkanicioggnmelmoomoc,lmelglejhemejginpboagddgdfbepgmp,giekcmmlnklenlaomppkphknjmnnpneh,khaoiebndkojlmppeemjhbpbandiljpe,llkgjffcdpffmhiakmfcdcblohccpfmo,hfnkpimlhhgieaddgfemjhofmfblmnib,gkmgaooipdjhmangpemjhigmamcehddo,laoigpblnllgcgjnjnllmfolckpjlhki,ehgidpndbllacpjalkiimkbadgjfnnmc,jflookgnkcckhobaglndicnbbgbonegd,efniojlnjndmcbiieegkicadnoecjjef,ggkkehgbnfjpeggfpleeakpidbkibbmn,jamhcnnkihinmdlkakkaopbjbbcngflc,ojhpjlocmbogdgmfpkhlaaeamibhnphh,dhlpobdgcjafebgbbhjdnapejmpkgiie,imefjhfbkmcmebodilednhmaccmincoa,dnhnnofocefcglhjeigmkhcgfoaipbaa,eeigpngbgcognadeebkilcpcaedhellh,gonpemdgkjcecdgbnaabipppbmgfggbe
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-102.0.5005.63
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+

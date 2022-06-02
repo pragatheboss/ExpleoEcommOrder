@@ -1,0 +1,68 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Expleo_Ecomm_v01.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2022
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2022.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2022.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+CreateOrder=CreateOrder.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+CreateOrder=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+CreateOrder=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+CreateOrder=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+CreateOrder=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="Expleo_Ecomm_001_Launch__*delimiter*__Expleo_Ecomm_002_Login__*delimiter*__Expleo_Ecomm_100_Search__*delimiter*__Expleo_Ecomm_102_ProceedtoCheckout__*delimiter*__Expleo_Ecomm_101_AddToCart__*delimiter*__Expleo_Ecomm_103_Address__*delimiter*__Expleo_Ecomm_104_PlaceOrder"
+[StateManagement]
+LastReplayStatus=2
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+Expleo_Ecomm_001_Launch=
+Expleo_Ecomm_002_Login=
+Expleo_Ecomm_100_Search=
+Expleo_Ecomm_102_ProceedtoCheckout=
+Expleo_Ecomm_101_AddToCart=
+Expleo_Ecomm_103_Address=
+Expleo_Ecomm_104_PlaceOrder=
